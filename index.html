@@ -1,0 +1,80 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portafolio</title>
+
+  <!-- Enlace a CSS principal -->
+  <link rel="stylesheet" href="css/estilos.css">
+
+  <!-- Fuente tipo globo -->
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Aquí va TODO el contenido visible -->
+
+  <h1>Bienvenidos a mi portafolio</h1>
+
+    <div class="card">
+      <img src="img/mi-foto.jpg" alt="">
+      <h2>Acerca de mí</h2>
+      <p>
+        ¡Hola! Soy Mel, una apasionada del arte, el diseño y las pequeñas cosas que hacen especial cada día. 🌿  
+        Me encanta explorar nuevas ideas, aprender constantemente y plasmar emociones en cada proyecto que realizo.  
+        Este espacio es mi rincón creativo, donde comparto lo que me inspira y lo que voy creando con dedicación.  
+        ¡Gracias por visitar mi portafolio y acompañarme en este camino!
+
+        <img src="img/melody.gif" alt="Gif decorativo" style="width: 200px; margin-top: 20px;">
+      </p>
+
+      <h3>Redes</h3>
+      <div class="social-buttons">
+        <a class="social-button" href="http://www.instagram.com/melmeii__" target="_blank">
+          <img src="img/instagram-icon.png" alt="Instagram">
+        </a>
+        <a class="social-button" href="http://www.x.com/Melmeii__" target="_blank">
+          <img src="img/twitter-icon.png" alt="Twitter">
+        </a>
+      </div>
+    </div>
+
+  <!-- SECCIÓN DE VIDEOS -->
+  <div class="video-section">
+    <h2>Mis Videos</h2>
+    <div class="videos-container">
+      <video controls><source src="videos/video1.mp4" type="video/mp4"></video>
+     
+    </div>
+  </div>
+
+  <!-- GALERÍA -->
+  <div id="contenedor_imagenes">   
+    <h2 class="gallery-title">Galería</h2>
+
+  <div class="imagen"><img src="img/Mel01.jpg" data-full="img/Mel01Full.jpg" class="thumbnail" alt="Imagen 1" /></div>
+  <div class="imagen"><img src="img/Mel02.jpg" data-full="img/Mel02Full.jpg" class="thumbnail" alt="Imagen 2" /></div>
+  <div class="imagen"><img src="img/Mel03.jpg" data-full="img/Mel03Full.jpg" class="thumbnail" alt="Imagen 3" /></div>
+  <div class="imagen"><img src="img/Mel04.jpg" data-full="img/Mel04Full.jpg" class="thumbnail" alt="Imagen 4" /></div>
+  <div class="imagen"><img src="img/Mel05.jpg" data-full="img/Mel05Full.jpg" class="thumbnail" alt="Imagen 5" /></div>
+  <div class="imagen"><img src="img/Mel06.jpg" data-full="img/Mel06Full.jpg" class="thumbnail" alt="Imagen 6" /></div>
+  <div class="imagen"><img src="img/Mel07.jpg" data-full="img/Mel07Full.jpg" class="thumbnail" alt="Imagen 7" /></div>
+  <div class="imagen"><img src="img/Mel08.jpg" data-full="img/Mel08Full.jpg" class="thumbnail" alt="Imagen 8" /></div>
+  <div class="imagen"><img src="img/Mel09.jpg" data-full="img/Mel09Full.jpg" class="thumbnail" alt="Imagen 9" /></div>
+  <div class="imagen"><img src="img/Mel10.jpg" data-full="img/Mel10Full.jpg" class="thumbnail" alt="Imagen 10" /></div>
+</div>
+
+    <!-- Agrega más imágenes igual que arriba -->
+  </div>
+
+  <!-- Modal para imagen ampliada -->
+  <div class="modal" id="myModal">
+    <button class="close" id="closeBtn">&times;</button>
+    <img id="modalImage" src="" alt="Imagen ampliada" />
+  </div>
+
+  <!-- Enlace a JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
