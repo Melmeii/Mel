@@ -1,6 +1,6 @@
    body {
   color: darkblue;
-  background-image: url('../img/arcoiris.gif'); /* Asegúrate que la imagen esté en esa carpeta y se llame así */
+  background-image: url('/img/arcoiris.gif'); /* Asegúrate que la imagen esté en esa carpeta y se llame así */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -291,3 +291,4 @@
     display: none;
   }
 }
+
